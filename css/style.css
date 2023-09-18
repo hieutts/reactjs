@@ -15,7 +15,13 @@
   border-bottom: 1px ridge;
   min-height: 400px;
 }
-
+.nav-item > a{
+  display: flex;
+  align-items: center;
+}
+.nav-item > a > span {
+  padding: 0 4px;
+}
 footer {
   background-color: #d1c4e9;
   /* margin: 0px 15px; */
